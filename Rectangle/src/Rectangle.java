@@ -17,7 +17,7 @@ class Rectangletest{
   private double height;
   
   public Rectangletest(double wid,double hei ){
-	  this.width = wid;
+	  this.width = wid;  //this 隐式参数，即所构造的对象
 	  this.height = hei;
   }
   public double getArea(){
