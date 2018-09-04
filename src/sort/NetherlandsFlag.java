@@ -40,7 +40,7 @@ public class NetherlandsFlag {
     }
 
     private static void swap(int[] arr, int i, int j){
-//        怎么做不行，因为涉及到自己和自己交换
+//        这么做不行，因为涉及到自己和自己交换
 //        arr[i] = arr[i] ^ arr[j];
 //        arr[j] = arr[i] ^ arr[j];
 //        arr[i] = arr[i] ^ arr[j];
