@@ -42,21 +42,29 @@ public class FindFirstIntersectNode {
     }
 
     private static Node getLoopNode(Node head){
-        Node fast = head;
-        Node slow = head;
+        if (head == null || head.next == null || head.next.next == null){ //少于3个节点不可能有环
+            return null;
+        }
+        Node fast = head.next.next;
+        Node slow = head.next;
         while (slow != null){
             if (fast== null){
                 return null;
             }
             if (fast != slow){
                 slow = slow.next;
-                fast = fast.next == null ? null : fast.next.next;
+                fast = (fast.next == null ? null : fast.next.next);
+            }else {
+                break;
             }
         }
         fast = head;
         while (fast != null){
             if (fast == slow){
                 return fast;
+            }else {
+                fast = fast.next;
+                slow = slow.next;
             }
         }
         return null;
@@ -88,10 +96,11 @@ public class FindFirstIntersectNode {
         if (k > 0){
             while (n > 0){
                 cur1 = cur1.next;
+                n--;
             }
             while (cur1 != null){
                 if (cur1 != cur2){
-                    cur1 = cur2.next;
+                    cur1 = cur1.next;
                     cur2 = cur2.next;
                 }else {
                     return cur1;
@@ -100,6 +109,7 @@ public class FindFirstIntersectNode {
         }else if (k < 0){
             while ( n < 0){
                  cur2 = cur2.next;
+                 n++;
             }
             while (cur2 != null){
                 if (cur1 != cur2){
@@ -119,14 +129,105 @@ public class FindFirstIntersectNode {
     private static Node bothLoop(Node head1, Node head2, Node loop1, Node loop2){
         Node cur1 = head1;
         Node cur2 = head2;
-
         if (loop1 == loop2){
+            int n = 0;
+           while (cur1 != loop1.next){
+                n++;
+                cur1 = cur1.next;
+           }
+           while (cur2 != loop2.next){
+               n--;
+               cur2 = cur2.next;
+           }
 
+           Node  ret = cur1;
+           cur1 = head1;
+           cur2 = head2;
+           int k = n;
+           if (k > 0){
+               while (n > 0){
+                   cur1 = cur1.next;
+                   n--;
+               }
+               while (cur1 != loop1.next){
+                   if (cur1 != cur2){
+                      cur1 = cur1.next;
+                      cur2 = cur2.next;
+                   }else {
+                       return cur1;
+                   }
+               }
+           }else if (k < 0){
+               while (n < 0){
+                   cur2 = cur2.next;
+                   n++;
+               }
+               while (cur2 != loop2.next){
+                   if (cur1 != cur2){
+                       cur1 = cur1.next;
+                       cur2 = cur2.next;
+                   }else {
+                       return cur2;
+                   }
+               }
+           }else {
+               return  ret;
+           }
+           return null;
+        }else {
+            cur1 = loop1.next;
+            while (cur1 != loop1) {      //要是没找到的话肯定就是两个链表都有环但是不相交
+                if (cur1 == loop2) {     //找到了另一环的话就是两个有环的链表相交了
+                    return loop1;
+                }
+                cur1 = cur1.next;
+            }
+            return null;
         }
-
-
-
     }
 
+
+    public static void main(String[] args) {
+        // 1->2->3->4->5->6->7->null
+        Node head1 = new Node(1);
+        head1.next = new Node(2);
+        head1.next.next = new Node(3);
+        head1.next.next.next = new Node(4);
+        head1.next.next.next.next = new Node(5);
+        head1.next.next.next.next.next = new Node(6);
+        head1.next.next.next.next.next.next = new Node(7);
+
+        // 0->9->8->6->7->null
+        Node head2 = new Node(0);
+        head2.next = new Node(9);
+        head2.next.next = new Node(8);
+        head2.next.next.next = head1.next.next.next.next.next; // 8->6
+        System.out.println(FindListFirstIntersectNode(head1, head2).value);
+
+        // 1->2->3->4->5->6->7->4...
+        head1 = new Node(1);
+        head1.next = new Node(2);
+        head1.next.next = new Node(3);
+        head1.next.next.next = new Node(4);
+        head1.next.next.next.next = new Node(5);
+        head1.next.next.next.next.next = new Node(6);
+        head1.next.next.next.next.next.next = new Node(7);
+        head1.next.next.next.next.next.next = head1.next.next.next; // 7->4
+
+        // 0->9->8->2...
+        head2 = new Node(0);
+        head2.next = new Node(9);
+        head2.next.next = new Node(8);
+        head2.next.next.next = head1.next; // 8->2
+        System.out.println(FindListFirstIntersectNode(head1, head2).value);
+
+        // 0->9->8->6->4->5->6..
+        head2 = new Node(0);
+        head2.next = new Node(9);
+        head2.next.next = new Node(8);
+        head2.next.next.next = head1.next.next.next.next.next; // 8->6
+        System.out.println(FindListFirstIntersectNode(head1, head2).value);
+
+    }
 
 }
