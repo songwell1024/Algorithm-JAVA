@@ -9,7 +9,13 @@ import java.util.*;
 public class demo {
 
     public static void main(String[] args){
-        mapSort();
+        int[] data = {1,5,3,7,100,128,256,0,1000};
+        Integer[] nums = IntegerSort(data);
+        for (int num : nums){
+            System.out.println(num);
+        }
+
+        HashMapSort();
 
     }
 
@@ -32,6 +38,41 @@ public class demo {
        }
    }
 
+
+   public static Integer[]  IntegerSort(int[] data){
+       Integer[] dataCopy = new Integer[data.length];
+       for (int i = 0; i < data.length; i++){
+           dataCopy[i] = (Integer) data[i];
+       }
+
+       Arrays.sort(dataCopy, new IntegerCompator());
+       return dataCopy;
+   }
+
+   //字符串排序
+   public static class StringComparator implements Comparator<String>{
+
+       @Override
+       public int compare(String o1, String o2) {
+           return o1.compareTo(o2);
+       }
+   }
+
+   public static void StringSort(String[] strs){
+        Arrays.sort(strs,new StringComparator());
+   }
+
+   //第二种简洁写法
+   public static void StringSort2(String[] strs){
+        Arrays.sort(strs, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return o1.compareTo(o2);
+            }
+        });
+   }
+
+
    private static void HashMapSort(){
        HashMap<Integer, Integer> map = new HashMap<>();
        for (int i  =0; i < 10; i++){
@@ -46,6 +87,7 @@ public class demo {
                return o1.getValue() - o2.getValue();
            }
        });
+
        for (Map.Entry<Integer, Integer> mapping : list){
            System.out.println(mapping.getKey() +","+ mapping.getValue());
        }
