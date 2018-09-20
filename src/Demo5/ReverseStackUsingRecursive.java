@@ -23,14 +23,28 @@ public class ReverseStackUsingRecursive {
     }
 
     public static int getAndRemoveElement(Stack<Integer> stack){
-        int result = stack.pop();   //先把栈顶的取出来，这是准备放到栈底的 不断的有result接住弹出的元素
+        int result = stack.pop();   //先把栈顶的取出来
         if (stack.isEmpty()){
             return result;
         }else {
-            int last = getAndRemoveElement(stack);
+            int last = getAndRemoveElement(stack);     //这个last的值是始终不变的，因为每次都是last自己等于自己
             stack.push(result);
-            return last;   //最后剩下的是栈顶的元素
+            return last;   //最后剩下的是栈底的元素 而且这个last的值是始终不变的，因为每次都是last自己等于自己
         }
+    }
+
+    public static void main(String[] args) {
+        Stack<Integer> test = new Stack<Integer>();
+        test.push(1);
+        test.push(2);
+        test.push(3);
+        test.push(4);
+        test.push(5);
+        Reverse(test);
+        while (!test.isEmpty()) {
+            System.out.println(test.pop());
+        }
+
     }
 
 
