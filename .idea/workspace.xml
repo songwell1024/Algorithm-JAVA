@@ -12,41 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KMP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/KMP.java">
+      <file leaf-file-name="LessNumSubArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/LessNumSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1219">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manacher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/Manacher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1104">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManacherShorestEnd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/ManacherShorestEnd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BFPRT.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/BFPRT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="1265">
+              <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -70,9 +40,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sort/NetherlandsFlag.java" />
-        <option value="$PROJECT_DIR$/src/sort/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/sort/MaxGAp.java" />
         <option value="$PROJECT_DIR$/src/sort/demo01.java" />
         <option value="$PROJECT_DIR$/src/sort/MaxGap.java" />
         <option value="$PROJECT_DIR$/src/Demo02/ArrayToStack.java" />
@@ -121,6 +88,9 @@
         <option value="$PROJECT_DIR$/src/AdvancedDemo01/Manacher.java" />
         <option value="$PROJECT_DIR$/src/AdvancedDemo01/ManacherShorestEnd.java" />
         <option value="$PROJECT_DIR$/src/AdvancedDemo01/BFPRT.java" />
+        <option value="$PROJECT_DIR$/src/AdvancedDemo01/PascalTriangle.java" />
+        <option value="$PROJECT_DIR$/src/AdvancedDemo01/LessNumSubArray.java" />
+        <option value="$PROJECT_DIR$/src/AdvancedDemo01/MoveWindow.java" />
       </list>
     </option>
   </component>
@@ -140,8 +110,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="485" />
-    <option name="width" value="1115" />
+    <option name="x" value="-7" />
+    <option name="width" value="814" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -185,8 +155,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,17 +168,12 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AdvancedDemo01" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BFPRT">
+  <component name="RunManager" selected="Application.LessNumSubArray">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -277,14 +241,33 @@
       <module name="Algorithm" />
       <envs />
     </configuration>
-    <configuration name="MinPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LessNumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Demo5.*" />
+          <option name="PATTERN" value="AdvancedDemo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Demo5.MinPath" />
+      <option name="MAIN_CLASS_NAME" value="AdvancedDemo01.LessNumSubArray" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithm" />
+      <envs />
+    </configuration>
+    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="AdvancedDemo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="AdvancedDemo01.PascalTriangle" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -304,25 +287,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
-    </configuration>
-    <configuration name="ReverseStackUsingRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Demo5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Demo5.ReverseStackUsingRecursive" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -409,19 +373,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ReverseStackUsingRecursive" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MinPath" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Knapsack" />
-      <item index="3" class="java.lang.String" itemvalue="Application.QuickSort" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BFPRT" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Knapsack" />
+      <item index="1" class="java.lang.String" itemvalue="Application.QuickSort" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BFPRT" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PascalTriangle" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LessNumSubArray" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BFPRT" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Knapsack" />
-        <item index="2" class="java.lang.String" itemvalue="Application.QuickSort" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MinPath" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ReverseStackUsingRecursive" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LessNumSubArray" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PascalTriangle" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BFPRT" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Knapsack" />
+        <item index="4" class="java.lang.String" itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -472,16 +436,18 @@
       <workItem from="1540021386633" duration="3193000" />
       <workItem from="1540084309683" duration="597000" />
       <workItem from="1540173038189" duration="3449000" />
-      <workItem from="1540188516321" duration="4147000" />
+      <workItem from="1540188516321" duration="4613000" />
+      <workItem from="1540195419617" duration="32000" />
+      <workItem from="1540197487567" duration="1479000" />
+      <workItem from="1540255924100" duration="9115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167147000" />
+    <option name="totallyTimeSpent" value="178239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -496,14 +462,14 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18894601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1966581" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29594594" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -546,26 +512,11 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="66" />
+      <option name="time" value="71" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Demo02.java" />
-    <entry file="file://$PROJECT_DIR$/src/sort/MaxGap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demo02/ArrayToStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Demo02/QueueToStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -888,32 +839,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/KMP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
+        <state relative-caret-position="0">
           <caret line="53" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/Manacher.java">
+    <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/PascalTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/ManacherShorestEnd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="230">
+          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/BFPRT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="402">
+          <caret line="98" column="1" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="98" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/MoveWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/ManacherShorestEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/Manacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdvancedDemo01/LessNumSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
           <folding />
         </state>
       </provider>
