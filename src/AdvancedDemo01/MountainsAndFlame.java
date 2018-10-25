@@ -21,33 +21,34 @@ public class MountainsAndFlame {
     }
 
     public long communictions(int[] arr){
-        if (arr.length == 0 || arr == null){
+        if (arr.length <= 1 || arr == null){
             return 0;
         }
 
         int size = arr.length;
-        int maxIndex = 0;
+        int maxIndex = 0;   //初始化最大值的位置
         for (int i = 0; i < size; i++){
             maxIndex = arr[maxIndex] < arr[i] ? i : maxIndex;
         }
-        int value = arr[maxIndex];
+        int val = arr[maxIndex];
         int index = nextIndex(size, maxIndex);
         long res = 0L;
         Stack<Pair> stack = new Stack<>();
         while (index != maxIndex){
-            value = arr[index];
-            while (!stack.isEmpty() && stack.peek().value < value){
+            val = arr[index];
+            while (!stack.isEmpty() && stack.peek().value < val){
                 int times = stack.pop().times;
                 res += getInternalSum(times) + 2*times;
             }
-            if (!stack.isEmpty() && stack.peek().value == value){
+            if (!stack.isEmpty() && stack.peek().value == val){
                 stack.peek().times ++;
             }else {
-                stack.push(new Pair(value));
+                stack.push(new Pair(val));
             }
             index = nextIndex(size, index);
         }
 
+        //这个是当所有的数都遍历一遍之后栈中海油没有弹出的元素的话进行的处理
         while (!stack.isEmpty()){
             int times = stack.pop().times;
             res += getInternalSum(times);
