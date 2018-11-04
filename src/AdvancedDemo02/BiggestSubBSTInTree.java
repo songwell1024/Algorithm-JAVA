@@ -1,7 +1,5 @@
 package AdvancedDemo02;
 
-import javax.swing.text.MaskFormatter;
-
 /**
  * 给定一棵二叉树的头节点head，请返回最大搜索二叉子树的大小
  * @author WilsonSong
