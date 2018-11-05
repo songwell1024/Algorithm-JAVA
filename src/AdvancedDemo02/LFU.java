@@ -83,7 +83,7 @@ public class LFU {
         public int size;
         public HashMap<Integer, Node> records;     //key -> node
         public HashMap<Node, NodeList> heads;     //每个节点所在的链表
-        public NodeList headList;     //头结点下的链表。其实就是第一个竖着的链表
+        public NodeList headList;     //第一个竖着的链表
 
         public LFUCache(int capacity){
             this.capacity = capacity;
