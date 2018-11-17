@@ -25,19 +25,31 @@
       <file leaf-file-name="Code_02_CardsInLine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AdvancedDemo06/Code_02_CardsInLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="1334">
               <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetWays.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AdvancedDemo06/GetWays.java">
+      <file leaf-file-name="Code_04_LongestSumSubArrayLengthInPositiveArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AdvancedDemo06/Code_04_LongestSumSubArrayLengthInPositiveArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+            <state relative-caret-position="529">
+              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Code_05_LongestSubarrayLessSumAwesomeSolution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AdvancedDemo06/Code_05_LongestSubarrayLessSumAwesomeSolution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding>
+                <element signature="e#1421#1439#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Demo02/FindFirstIntersectNode.java" />
-        <option value="$PROJECT_DIR$/src/Demo03/PreInPosTraversal.java" />
         <option value="$PROJECT_DIR$/src/Demo03/PrintBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/Demo03/SuccessorNode.java" />
         <option value="$PROJECT_DIR$/src/Demo03/isBalanceTree.java" />
@@ -111,6 +121,8 @@
         <option value="$PROJECT_DIR$/src/AdvancedDemo06/Code_01_CoinsWay.java" />
         <option value="$PROJECT_DIR$/src/AdvancedDemo06/Code_02_CardsInLine.java" />
         <option value="$PROJECT_DIR$/src/AdvancedDemo06/GetWays.java" />
+        <option value="$PROJECT_DIR$/src/AdvancedDemo06/Code_04_LongestSumSubArrayLengthInPositiveArray.java" />
+        <option value="$PROJECT_DIR$/src/AdvancedDemo06/Code_05_LongestSubarrayLessSumAwesomeSolution.java" />
       </list>
     </option>
   </component>
@@ -130,9 +142,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="478" />
-    <option name="y" value="9" />
-    <option name="width" value="1115" />
+    <option name="x" value="497" />
+    <option name="width" value="1022" />
     <option name="height" value="851" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -175,6 +186,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,10 +210,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetWays">
+  <component name="RunManager" selected="Application.Code_05_LongestSubarrayLessSumAwesomeSolution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -238,6 +249,44 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="AdvancedDemo05.Code_01_IsCBT" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithm" />
+      <envs />
+    </configuration>
+    <configuration name="Code_04_LongestSumSubArrayLengthInPositiveArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="AdvancedDemo06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="AdvancedDemo06.Code_04_LongestSumSubArrayLengthInPositiveArray" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithm" />
+      <envs />
+    </configuration>
+    <configuration name="Code_05_LongestSubarrayLessSumAwesomeSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="AdvancedDemo06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="AdvancedDemo06.Code_05_LongestSubarrayLessSumAwesomeSolution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -276,44 +325,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="AdvancedDemo06.GetWays" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
-    </configuration>
-    <configuration name="LessNumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="AdvancedDemo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="AdvancedDemo01.LessNumSubArray" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
-    </configuration>
-    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="AdvancedDemo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="AdvancedDemo01.PascalTriangle" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -400,19 +411,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PascalTriangle" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LessNumSubArray" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Code_01_IsCBT" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Code_05_Max_EOR" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GetWays" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Code_01_IsCBT" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Code_05_Max_EOR" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GetWays" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Code_04_LongestSumSubArrayLengthInPositiveArray" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Code_05_LongestSubarrayLessSumAwesomeSolution" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GetWays" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Code_05_Max_EOR" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Code_01_IsCBT" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LessNumSubArray" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PascalTriangle" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Code_05_LongestSubarrayLessSumAwesomeSolution" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Code_04_LongestSumSubArrayLengthInPositiveArray" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GetWays" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Code_05_Max_EOR" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Code_01_IsCBT" />
       </list>
     </recent_temporary>
   </component>
@@ -490,11 +501,15 @@
       <workItem from="1541918056515" duration="4163000" />
       <workItem from="1542107053515" duration="4609000" />
       <workItem from="1542199728561" duration="3315000" />
+      <workItem from="1542263108519" duration="23000" />
+      <workItem from="1542335702859" duration="44000" />
+      <workItem from="1542373469716" duration="2508000" />
+      <workItem from="1542417287060" duration="5861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253468000" />
+    <option name="totallyTimeSpent" value="261904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -513,7 +528,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16066837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17416452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -568,26 +583,18 @@
           <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AdvancedDemo06/Code_05_LongestSubarrayLessSumAwesomeSolution.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="75" />
+      <option name="time" value="78" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Demo03/IsBalanceTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demo03/SuccessorNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Demo03/PreInPosTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -913,19 +920,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdvancedDemo06/GetWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AdvancedDemo06/Code_02_CardsInLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="1334">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdvancedDemo06/GetWays.java">
+    <entry file="file://$PROJECT_DIR$/src/AdvancedDemo06/Code_04_LongestSumSubArrayLengthInPositiveArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        <state relative-caret-position="529">
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdvancedDemo06/Code_05_LongestSubarrayLessSumAwesomeSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="e#1421#1439#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
