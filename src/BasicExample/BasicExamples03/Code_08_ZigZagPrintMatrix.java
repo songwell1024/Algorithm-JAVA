@@ -13,13 +13,42 @@ public class Code_08_ZigZagPrintMatrix {
         }
         int x = 0;
         int y = 0;
-        int xx = 0;
-        int yy = 0;
         int c = data.length-1;
         int l = data[0].length-1;
+        boolean flag = true;
 
-        
-
+        while (x <= c && y <= l) {
+            if (flag){
+                while (x <= c && y >= 0){
+                    System.out.println(data[x++][y--]);
+                }
+                x--;
+                y++;
+                flag = !flag;
+                if (x==c){
+                    y++;
+                }else {
+                    x++;
+                }
+            }else {
+                while (x>=0 && y <= l){
+                    System.out.println(data[x--][y++]);
+                }
+                x++;
+                y--;
+                flag = !flag;
+                if (y == l){
+                    x++;
+                }else {
+                    y++;
+                }
+            }
+        }
     }
 
+    public static void main(String[] args){
+//        int[][] data = {{1,2,3}, {4,5,6},{7,8,9}};
+        int[][] data = {{1,2}, {4,5},{7,8}};
+        zigZagPrintMatrix(data);
+    }
 }
