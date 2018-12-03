@@ -140,7 +140,6 @@ public class FindFirstIntersectNode {
                cur2 = cur2.next;
            }
 
-           Node  ret = cur1;
            cur1 = head1;
            cur2 = head2;
            int k = n;
@@ -171,7 +170,14 @@ public class FindFirstIntersectNode {
                    }
                }
            }else {
-               return  ret;
+               while (cur1 != null){
+                   if (cur1 == cur2){
+                       return cur1;
+                   }else {
+                       cur1 = cur1.next;
+                       cur2 = cur2.next;
+                   }
+               }
            }
            return null;
         }else {
