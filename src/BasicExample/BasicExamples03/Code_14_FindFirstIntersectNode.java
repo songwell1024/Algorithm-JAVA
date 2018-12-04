@@ -40,9 +40,9 @@ public class Code_14_FindFirstIntersectNode {
             return getIntersectNodeOfNoLoop(head1, head2);
         }
         if (loop1 != null && loop2 != null){
-
+            return getIntersectNodeWithNoLoop(head1,head2,loop1,loop2);
         }
-
+        return null;
     }
 
     //获取环节点
@@ -201,8 +201,7 @@ public class Code_14_FindFirstIntersectNode {
                }
            }
         }
-
-
+        return null;
     }
 
 
