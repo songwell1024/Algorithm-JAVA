@@ -52,11 +52,6 @@ public class Code_02_RandomPool {
             int index = (int)(Math.random() * size);
             return poolVK.get(index);
         }
-
-
-
-
-
     }
 
 }
