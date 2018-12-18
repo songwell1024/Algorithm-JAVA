@@ -31,6 +31,7 @@ public class Print_All_Subsquences {
     public static void printProcess2(char[] chars, int k, String res){
         if (k == chars.length){
             System.out.println(res);
+            return;
         }
         printProcess2(chars, k+1, res);
         printProcess2(chars, k+1, res + String.valueOf(chars[k]));
@@ -40,6 +41,7 @@ public class Print_All_Subsquences {
     public static void main(String[] args) {
         String test = "abc";
         PrintAllSubsquences(test);
+        printProcess2(test.toCharArray(),0, "");
     }
 
 }
