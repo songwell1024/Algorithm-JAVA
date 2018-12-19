@@ -1,6 +1,7 @@
 package BasicExample.BasicExamples08;
 
 /**
+ * n!
  * @author WilsonSong
  * @date 2018/12/17/017
  */
