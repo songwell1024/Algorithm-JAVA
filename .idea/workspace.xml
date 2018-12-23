@@ -23,8 +23,8 @@
       <file leaf-file-name="Code_05_Cows.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BasicExample/BasicExamples08/Code_05_Cows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-191">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="460">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="e#771#772#0" expanded="true" />
                 <element signature="e#820#821#0" expanded="true" />
@@ -36,18 +36,38 @@
       <file leaf-file-name="Code_06_ReverseStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BasicExample/BasicExamples08/Code_06_ReverseStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
+            <state relative-caret-position="437">
               <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinPath.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinPath.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BasicExample/BasicExamples08/MinPath.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
               <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Code_07_AimProblem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BasicExample/BasicExamples08/Code_07_AimProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-214">
+              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Code_08_MaxWorth.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BasicExample/BasicExamples08/Code_08_MaxWorth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="920">
+              <caret line="40" column="66" lean-forward="false" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -71,8 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples02/Code_01_NetherlandsFlag.java" />
-        <option value="$PROJECT_DIR$/src/BasicDemo/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples02/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples02/Code_03_HeapSort.java" />
         <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples03/Code_01_ArrayToQueue.java" />
@@ -122,6 +140,8 @@
         <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples08/Code_05_Cows.java" />
         <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples08/Code_06_ReverseStack.java" />
         <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples08/MinPath.java" />
+        <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples08/Code_07_AimProblem.java" />
+        <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples08/Code_08_MaxWorth.java" />
       </list>
     </option>
   </component>
@@ -186,9 +206,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,7 +245,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code_05_Cows">
+  <component name="RunManager" selected="Application.Code_07_AimProblem">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -312,14 +332,14 @@
       <module name="Algorithm" />
       <envs />
     </configuration>
-    <configuration name="Print_All_Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Code_07_AimProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="BasicDemo.Demo5.*" />
+          <option name="PATTERN" value="BasicExample.BasicExamples08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="BasicDemo.Demo5.Print_All_Permutations" />
+      <option name="MAIN_CLASS_NAME" value="BasicExample.BasicExamples08.Code_07_AimProblem" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -331,14 +351,14 @@
       <module name="Algorithm" />
       <envs />
     </configuration>
-    <configuration name="Print_All_Subsquences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Print_All_Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="BasicDemo.Demo5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="BasicDemo.Demo5.Print_All_Subsquences" />
+      <option name="MAIN_CLASS_NAME" value="BasicDemo.Demo5.Print_All_Permutations" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -426,18 +446,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Code_03_Print_All_Subsquences" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Print_All_Subsquences" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Code_04_Print_All_Permutations" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Print_All_Permutations" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Code_05_Cows" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Code_04_Print_All_Permutations" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Print_All_Permutations" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Code_05_Cows" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Code_07_AimProblem" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Code_05_Cows" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Code_04_Print_All_Permutations" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Print_All_Permutations" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Code_03_Print_All_Subsquences" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Print_All_Subsquences" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Code_07_AimProblem" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Code_05_Cows" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Code_04_Print_All_Permutations" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Print_All_Permutations" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Code_03_Print_All_Subsquences" />
       </list>
     </recent_temporary>
   </component>
@@ -555,11 +575,12 @@
       <workItem from="1545130989724" duration="4401000" />
       <workItem from="1545218284143" duration="4096000" />
       <workItem from="1545462444836" duration="4048000" />
+      <workItem from="1545559887445" duration="4275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="396545000" />
+    <option name="totallyTimeSpent" value="400820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -573,19 +594,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3391892" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22702703" sideWeight="0.4974293" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22702703" sideWeight="0.4974293" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23200513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23521851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35540542" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35540542" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -676,20 +697,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BasicExample/BasicExamples03/Code_11_IsPalindromeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicDemo/Demo02/SmallerEqualBigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1888">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BasicExample/BasicExamples03/Code_12_SmallerEqualBigger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1610">
@@ -974,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
           <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-25">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,8 +1044,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BasicExample/BasicExamples08/Code_05_Cows.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="460">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="e#771#772#0" expanded="true" />
             <element signature="e#820#821#0" expanded="true" />
@@ -1051,7 +1055,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BasicExample/BasicExamples08/Code_06_ReverseStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
+        <state relative-caret-position="437">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding />
         </state>
@@ -1061,6 +1065,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicExample/BasicExamples08/Code_07_AimProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicExample/BasicExamples08/Code_08_MaxWorth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="66" lean-forward="false" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
           <folding />
         </state>
       </provider>
