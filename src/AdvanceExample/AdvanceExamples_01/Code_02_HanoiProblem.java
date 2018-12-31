@@ -53,9 +53,9 @@ public class Code_02_HanoiProblem {
             return -1;
         }
         if (arr[i] == from) {
-            return process(arr, i - 1, from, to, mid);
+            return process2(arr, i - 1, from, to, mid);
         } else {
-            int rest = process(arr, i - 1, mid, from, to);
+            int rest = process2(arr, i - 1, mid, from, to);
             if (rest == -1) {
                 return -1;
             }
