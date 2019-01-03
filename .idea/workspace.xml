@@ -20,28 +20,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Code_06_T1ContainsT2Topology.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AdvanceExample/AdvanceExamples_01/Code_06_T1ContainsT2Topology.java">
+      <file leaf-file-name="Code_07_ExpressionCompute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AdvanceDemo/AdvancedDemo04/Code_07_ExpressionCompute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="297">
+              <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="43" />
               <folding>
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code_08_MaxDistanceInTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AdvanceExample/AdvanceExamples_01/Code_08_MaxDistanceInTree.java">
+      <file leaf-file-name="Code_09_ExpressionCompute.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AdvanceExample/AdvanceExamples_01/Code_09_ExpressionCompute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="276">
+              <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples03/Code_03_01_QueueToStack.java" />
         <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples03/Code_03_02_StackToQueue.java" />
         <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples03/Code_04_DogCatQueue.java" />
         <option value="$PROJECT_DIR$/src/BasicExample/BasicExamples03/Code_05_PrintMatrix.java" />
@@ -115,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/AdvanceExample/AdvanceExamples_01/Code_05_IsBalanceTree.java" />
         <option value="$PROJECT_DIR$/src/AdvanceExample/AdvanceExamples_01/Code_06_T1ContainsT2Topology.java" />
         <option value="$PROJECT_DIR$/src/AdvanceExample/AdvanceExamples_01/Code_08_MaxDistanceInTree.java" />
+        <option value="$PROJECT_DIR$/src/AdvanceExample/AdvanceExamples_01/Code_09_ExpressionCompute.java" />
       </list>
     </option>
   </component>
@@ -179,8 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,6 +189,19 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AdvanceDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AdvanceDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="AdvancedDemo04" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -210,7 +220,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -551,11 +561,12 @@
       <workItem from="1546219560539" duration="6114000" />
       <workItem from="1546257918686" duration="159000" />
       <workItem from="1546324845117" duration="5665000" />
+      <workItem from="1546516313523" duration="4884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419864000" />
+    <option name="totallyTimeSpent" value="424748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -573,7 +584,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26092544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26413882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -672,20 +683,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BasicExample/BasicExamples04/Code_05_PaperFolding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicDemo/Demo03/SuccessorNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BasicDemo/Demo03/IsBalanceTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1027,7 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,13 +1031,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AdvanceExample/AdvanceExamples_01/Code_06_T1ContainsT2Topology.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="782">
           <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="40" />
           <folding>
             <element signature="e#590#591#0" expanded="true" />
@@ -1052,12 +1047,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AdvanceExample/AdvanceExamples_01/Code_08_MaxDistanceInTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="943">
+          <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="50" />
           <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdvanceDemo/AdvancedDemo04/Code_07_ExpressionCompute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="43" />
+          <folding>
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdvanceExample/AdvanceExamples_01/Code_09_ExpressionCompute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
